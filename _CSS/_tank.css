@@ -1,0 +1,162 @@
+@charset "UTF-8" ;
+
+body{
+    background-image:url(../_CSS/_tank2_background.jpg);
+    background-size:1690px ;
+}
+
+ul#album-tank {
+    width:700px ;
+    margin:0px auto ;
+    padding: 50px;
+    overflow: hidden;
+    list-style:none ;
+    top: 200px;
+    left: 280px;
+    position:absolute ;
+}
+ul#album-tank li {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border: 5px solid #7541eb;
+    background-color:#ffffff ;
+    -webkit-transition:all 1s ease-in ;
+}
+ul#album-tank li span {
+    opacity:.3;
+    font-family: FonteLogo, sans-serif;
+    font-size:11pt;
+    line-height:220px ;
+    color:#000000;
+
+}
+ul#album-tank li:hover {
+    -webkit-transform:scale(1.9);
+}
+ul#album-tank li:hover span {
+    opacity:1;
+    transition:2s;
+}
+ul#album-tank li#tank01 {
+background:url('../_Tank/_Ash_tank.png') no-repeat;
+background-position:50% 50%;
+background-size:350px 350px  ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank02 {
+    background:url('../_Tank/_Atlas_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank03 {
+    background:url('../_Tank/_Barik_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:568px 568px ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank04 {
+    background:url('../_Tank/_Fernando_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:350px 350px  ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank05 {
+    background:url('../_Tank/_Inara_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank06 {
+    background:url('../_Tank/_Khan_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank07 {
+    background:url('../_Tank/_Makoa_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:944px 840px ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank08 {
+    background:url('../_Tank/_Raum_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank09 {
+    background:url('../_Tank/_Ruckus_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank10 {
+    background:url('../_Tank/_Terminus_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank11 {
+    background:url('../_Tank/_Torvald_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank12 {
+    background:url('../_Tank/_Yagorath_tank.png')no-repeat;
+background-position:50% 50%;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-tank li#tank01:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank02:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank03:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank04:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank05:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank06:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank07:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank08:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank09:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank10:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank11:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-tank li#tank12:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+

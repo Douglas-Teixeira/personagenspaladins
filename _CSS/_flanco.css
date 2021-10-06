@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../_CSS/_flanco_background.jpg);
+    background-size:1690px ;
+}
+ 
+ul#album-flanco {
+    width: 700px;
+    margin: 0px auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    top: 200px;
+    left: 280px;
+    position:absolute;
+}
+ul#album-flanco li {
+    float:left;
+    width: 120px;
+    height: 120px;
+    margin:10px;
+    border: 5px solid #7541eb;
+    background-color:#ffffff;
+    -webkit-transition:all 1s ease-in;
+}
+ul#album-flanco li:hover {
+    -webkit-transform:scale(1.9);
+}
+ul#album-flanco li span {
+    opacity:0.3;
+    font-family: FonteLogo ,sans-serif ;
+    font-size:11pt;
+    line-height:220px;
+    color:#000000;
+}
+ul#album-flanco li:hover span {
+    opacity:1;
+    transition: 2s
+}
+
+ul#album-flanco li#flanco01 {
+background: url('../_Flanco/_Androxus_flanco.png') no-repeat;
+background-position:50% 50% ;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-flanco li#flanco02 {
+    background: url('../_Flanco/_Buck_Flanco.png') no-repeat;
+background-position:50% 50% ;
+background-size:553px 831px ;
+background-color:#ffffff ;
+}
+ul#album-flanco li#flanco03 {
+    background: url('../_Flanco/_Evie_flanco.png') no-repeat;
+background-position:50% 50% ;
+background-size:719px 654px ;
+background-color: #ffffff;
+}
+ul#album-flanco li#flanco04 {
+    background: url('../_Flanco/_Koga_flanco.png') no-repeat;
+background-position:50% 50% ;
+background-size:843px 865px;
+background-color:#ffffff ;
+}
+ul#album-flanco li#flanco05 {
+    background: url('../_Flanco/_Lex_flanco.jpg') no-repeat;
+background-position:50% 50% ;
+background-size:640px 640px ;
+background-color: #ffffff;
+}
+ul#album-flanco li#flanco06 {
+    background: url('../_Flanco/_Maeve_flanco.png') no-repeat;
+    background-position:50% 50% ;
+    background-size:350px 350px ;
+    background-color:#ffffff ;  
+}
+ul#album-flanco li#flanco07 {
+    background: url('../_Flanco/_Moji_flanco.png') no-repeat;
+background-position:50% 50% ;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-flanco li#flanco08 {
+    background: url('../_Flanco/_Skye_flanco.png') no-repeat;
+background-position:50% 50% ;
+background-size:467px 555px ;
+background-color:#ffffff ;
+}
+ul#album-flanco li#flanco09 {
+    background: url('../_Flanco/_Talus_flanco.png') no-repeat;
+background-position:50% 50% ;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-flanco li#flanco10 {
+    background: url('../_Flanco/_Vatu_Flanco.png') no-repeat;
+background-position:50% 50% ;
+background-size:1078px 1078px;
+background-color:#ffffff ;
+}
+ul#album-flanco li#flanco11 {
+    background: url('../_Flanco/_Vora_flanco.png') no-repeat;
+    background-position:50% 50% ;
+    background-size:350px 350px ;
+    background-color:#ffffff ; 
+}
+ul#album-flanco li#flanco12 {
+    background: url('../_Flanco/_Zhin_flanco.png') no-repeat;
+background-position:50% 50% ;
+background-size:350px 350px ;
+background-color:#ffffff ;
+}
+ul#album-flanco li#flanco01:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco02:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco03:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco04:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco05:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco06:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco07:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco08:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco09:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco10:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco11:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}
+ul#album-flanco li#flanco12:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px ;
+}

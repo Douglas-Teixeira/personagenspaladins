@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body {
+    background-image:url(../_CSS/_suporte_background.jpg);
+    background-size:1900px;
+}
+ul#album-suporte {
+    width: 700px;
+    margin:0px auto ;
+    padding:50px ;
+    overflow:hidden ;
+    list-style:none ;
+    top:200px ;
+    left:280px ;
+    position:absolute;
+}
+ul#album-suporte li {
+    float:left;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border:5px solid #7541eb ;
+    background-color:#ffffff ;
+    -webkit-transition:all 1s ease-in ;
+
+}
+ul#album-suporte li span {
+    opacity:0.3 ;
+    font-family: FonteLogo , sans-serif ;
+    font-size:11pt ;
+    line-height: 220px;
+    color:#000000;
+}
+ul#album-suporte li:hover {
+    -webkit-transform:scale(1.9);
+}
+ul#album-suporte li:hover span {
+    opacity:1;
+    transition:2s ;
+}
+ul#album-suporte li#suporte01 {
+    background:url('../_Suporte/_Corvus_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:350px 350px ;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte02 {
+    background:url('../_Suporte/_Furia_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:413px 413px ;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte03 {
+    background:url('../_Suporte/_Grohk_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:350px 350px ;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte04 {
+    background:url('../_Suporte/_Grover_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:350px 350px ;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte05 {
+    background:url('../_Suporte/_IO_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:350px 350px ;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte06 {
+    background:url('../_Suporte/_Jenos_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 889px 856px;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte07 {
+    background:url('../_Suporte/_Mal\'damba_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:926px 843px ;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte08 {
+    background:url('../_Suporte/_Pip_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:350px 350px ;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte09 {
+    background:url('../_Suporte/_Rei_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:350px 350px ;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte10 {
+    background:url('../_Suporte/_Seris_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:920px 799px ;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte11 {
+    background:url('../_Suporte/_Ying_suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:350px 350px ;
+    background-color:#ffffff;
+}
+ul#album-suporte li#suporte01:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-suporte li#suporte02:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-suporte li#suporte03:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-suporte li#suporte04:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-suporte li#suporte05:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-suporte li#suporte06:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-suporte li#suporte07:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-suporte li#suporte08:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-suporte li#suporte09:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-suporte li#suporte10:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}
+ul#album-suporte li#suporte11:hover {
+    background-position:0px 0px ;
+    background-size: 120px 120px;
+}

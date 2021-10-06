@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo' ;
+    src:url("../_Fontes/BungeeShade-Regular.ttf");
+
+
+}
+body {
+    
+   
+    background-image:url(../_CSS/_cassie_background_dano2.jpg);
+    background-size: 1900px ;
+    
+}
+
+ul#album-dano  {
+    width:700px;
+    margin:0px auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style:none;
+    top: 200px;
+    left:230px;
+    position:absolute;
+}
+ ul#album-dano li {
+     float:left;
+     width: 110px;
+     height:110px;
+     margin:10px;
+     border: 5px solid #7541eb;
+     background-color: #ffffff;
+     -webkit-transition:all 1s ease-in;
+     
+}
+ul#album-dano li:hover {
+    -webkit-transform:scale(2);
+}
+ul#album-dano li span {
+    opacity:0.3;
+    font-family: FonteLogo ,sans-serif ;
+    font-size:11pt;
+    line-height:200px;
+    color:#000000;
+    
+    margin:1px;
+}
+ul#album-dano li:hover span {
+    opacity:1;
+    transition:2s;
+}
+
+
+ul#album-dano li#dano01 {
+    background: url('../_Dano/_Bomb_King_Dano.png') no-repeat;
+    background-position:50% 50%;
+    background-size: 782px 802px ;
+    background-color:#ffffff ;
+}
+ ul#album-dano li#dano02 {
+ background: url('../_Dano/_Cassie_dano.png') no-repeat;
+ background-position:50% 50%;
+ background-size:350px 350px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano03 {
+background: url('../_Dano/_Dredge_dano.jpg') no-repeat;
+background-position:50% 50%;
+background-size:200px 256px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano04 {
+background: url('../_Dano/_Drogoz_Dano.jpg') no-repeat;
+background-position:50% 50%;
+background-size:360px 450px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano05 {
+background: url('../_Dano/_Imani_dano.jpg') no-repeat;
+background-position:50% 50%;
+background-size:960px 1200px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano06 {
+background: url('../_Dano/_Kinessa_dano.png') no-repeat;
+background-position:50% 50%;
+background-size:800px 800px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano07 {
+background: url('../_Dano/_Lian_dano.jpg') no-repeat;
+background-position:50% 50%;
+background-size:615px 916px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano08 {
+background: url('../_Dano/_Octavia_dano.jpg') no-repeat;
+background-position:50% 50%;
+background-size:540px 960px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano09 {
+background: url('../_Dano/_Sha_lin_dano.png') no-repeat;
+background-position:50% 50%;
+background-size:495px 854px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano10 {
+background: url('../_Dano/_Strix_dano.png') no-repeat;
+background-position:50% 50%;
+background-size:880px 863px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano11 {
+background: url('../_Dano/_Tiberius_dano.png') no-repeat;
+background-position:50% 50%;
+background-size:256px 256px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano12 {
+background: url('../_Dano/_Tyra_dano.png') no-repeat;
+background-position:50% 50%;
+background-size:537px 563px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano13 {
+background: url('../_Dano/_Viktor_dano.png') no-repeat;
+background-position:50% 50%;
+background-size:642px 874px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano14 {
+background: url('../_Dano/_Vivian_dano.png') no-repeat;
+background-position:50% 50%;
+background-size:360px 450px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano15 {
+background: url('../_Dano/_Willo_dano.png') no-repeat;
+background-position:50% 50%;
+background-size:770px 770px ;
+    background-color:#ffffff ;
+ }
+ ul#album-dano li#dano01:hover {
+     background-position: 0px 0px;
+     background-size: 110px 110px;
+ }
+ ul#album-dano li#dano02:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano03:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano04:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano05:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano06:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano07:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano08:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano09:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano10:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano11:hover{
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano12:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano13:hover {
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano14:hover{
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
+ul#album-dano li#dano15:hover{
+    background-position: 0px 0px;
+    background-size: 110px 110px;
+}
